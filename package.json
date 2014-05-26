@@ -1,6 +1,6 @@
 {
   "name": "tail-agent",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A agent process that tails a log and pushes it to a skv store",
   "main": "index.js",
   "directories": {
