@@ -23,5 +23,8 @@
     "underscore": "^1.6.0",
     "minimist": "^0.1.0",
     "always-tail": "^0.1.1"
+  },
+  "bin": {
+    "agent": "./bin/agent"
   }
 }
