@@ -1,0 +1,27 @@
+{
+  "name": "tail-agent",
+  "version": "0.0.1",
+  "description": "A agent process that tails a log and pushes it to a skv store",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jshint **/*.js && tap test/*_test.js && tap node_modules/validate-options/*_test.js"
+  },
+  "author": "Tom",
+  "license": "MIT",
+  "devDependencies": {
+    "jshint": "^2.5.1",
+    "tap": "^0.4.9",
+    "rewire": "^2.0.1"
+  },
+  "dependencies": {
+    "tail": "^0.3.5",
+    "uuid": "^1.4.1",
+    "upnode": "^0.4.3",
+    "underscore": "^1.6.0",
+    "minimist": "^0.1.0",
+    "always-tail": "^0.1.1"
+  }
+}
